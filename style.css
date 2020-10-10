@@ -1,0 +1,32 @@
+header
+{
+    float: left;
+    display: flex;
+}
+
+li {
+    border-right: 20px;
+}
+
+ul 
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    margin-top: 0;
+}
+
+.Cadi
+{
+    margin-left: 100%;
+    margin-right: 0%;
+    float: right;
+}
+
+.Search
+{
+    margin-left: 0;
+    margin-right: 0;
+    float: right;
+
+}
