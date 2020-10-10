@@ -1,32 +1,104 @@
 header
+
 {
+
     float: left;
     display: flex;
+
 }
+
 
 li {
+
     border-right: 20px;
+
+    width: 70px;
+
 }
+
+
 
 ul 
+
 {
+
     list-style-type: none;
+
     float: left;
+
     display: flex;
-    margin-top: 0;
+
+    margin-top: 50px;
+
+
+
 }
+
+
 
 .Cadi
+
 {
-    margin-left: 100%;
-    margin-right: 0%;
-    float: right;
+
+    margin-left: 80%;
+
+    position: absolute; top: 5px; right: 20%; width: 40px;
+
 }
 
-.Search
-{
-    margin-left: 0;
-    margin-right: 0;
-    float: right;
 
+
+.login
+
+{
+
+    position: absolute; top: 6%; right: 10%; width: 40px;
+
+}
+
+
+
+.Search
+
+{
+
+    display: inline-block;
+
+    position: absolute; top: 10%; left: 1.5%; width: 40%;
+
+}
+
+.sirchbar 
+
+{
+
+    position: absolute; top: 13%; left: 10%; width: 20%;
+
+}
+
+
+
+.powered {
+
+    position: absolute; top: 15%; left: 40%; width: 40px;
+    width: 5%;
+
+
+}
+.main {
+    position: absolute; top: 30%; width: auto; height: auto;
+}
+.products {
+  max width: 20%; 
+  height: auto; 
+}
+
+.product1 {
+    max width: 20%; 
+    height: auto; 
+  
+}
+section#footer{
+    display: flex;
+    margin-top: 80%;
 }
