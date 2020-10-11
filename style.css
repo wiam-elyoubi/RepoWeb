@@ -42,7 +42,7 @@ ul
 
     margin-left: 80%;
 
-    position: absolute; top: 5px; right: 20%; width: 40px;
+    position: absolute; top: 5%; right: 5%; width: 40px;
 
 }
 
@@ -52,7 +52,7 @@ ul
 
 {
 
-    position: absolute; top: 6%; right: 10%; width: 40px;
+    position: absolute; top: 5.5%; right: 1%; width: 40px;
 
 }
 
@@ -80,25 +80,135 @@ ul
 
 .powered {
 
-    position: absolute; top: 15%; left: 40%; width: 40px;
+    position: absolute; top: 8%; left: 40%; width: 40px;
+    width: 5%;
+}
+
+.menu{
+    display: flex;
+    padding-top: 50%;
+    color: white;
+}
+
+.main {
+    position: absolute; top: 30%; width: auto; height: auto;
+}
+
+.products {
+  width: 70%; 
+  height: auto; 
+  display: flex;
+  padding-right: 20%;
+
+}
+
+
+.product1 {
+    width: 70%; 
+    height: auto; 
+    display: flex;
+    padding-right: 20%;
+}
+
+section#footer{
+    display: flex;
+    margin-top: 100%;
+    position: absolute;
+    padding-top: 100%;
+    bottom: 0%;
+}
+
+
+Le sam. 10 oct. 2020 à 22:47, Elyoubi Wiam <elyoubi.wia@gmail.com> a écrit :
+header
+
+{
+
+    float: left;
+    display: flex;
+
+}
+
+
+li {
+
+    border-right: 20px;
+
+    width: 70px;
+
+}
+
+
+
+ul 
+
+{
+
+    list-style-type: none;
+
+    float: left;
+
+    display: flex;
+
+    margin-top: 50px;
+
+
+
+}
+
+
+
+.Cadi
+
+{
+
+    margin-left: 80%;
+
+    position: absolute; top: 5px; right: 20%; width: 40px;
+
+}
+
+
+
+.login
+
+{
+
+    position: absolute; top: 6%; right: 10%; width: 40px;
+
+}
+
+
+
+.Search
+
+{
+
+    display: inline-block;
+
+    position: absolute; top: 20%; left: 1.5%; width: 40%;
+
+}
+
+.sirchbar 
+
+{
+
+    position: absolute; top: 23%; left: 10%; width: 20%;
+
+}
+
+
+
+.powered {
+
+    position: absolute; top: 18%; left: 40%; width: 40px;
     width: 5%;
 
 
 }
-.main {
-    position: absolute; top: 30%; width: auto; height: auto;
-}
-.products {
-  max width: 20%; 
-  height: auto; 
-}
 
-.product1 {
-    max width: 20%; 
-    height: auto; 
-  
-}
-section#footer{
+.menu{
     display: flex;
-    margin-top: 80%;
+    padding-top: 50%;
 }
